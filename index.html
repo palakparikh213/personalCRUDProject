@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class = "container">
+        <h1>Inventory List</h1>
+        <form id = "inventory-list-form">
+            <label for="inventory-list-entry">Add new product name: </label>
+            <input type = "text" name = "inventory-list-entry" class = "js-inventory-list-entry" placeholder = "e.g., Lego Set">
+            <button type = "submit">Add Product</button>
+        </form>
+        <ol class="inventory list js-inventory-list"></ol>
+    </div>
+
+    <div>
+        <div class="hidden"></div>
+        <div id = "product-template">
+            <ol class = "js-product-index-element">
+                <span class="product js-product"></span>
+                <div class="product-item-buttons">
+                    <button class = "edit button">
+                        <span class="button-label">Edit</span>
+                    </button>
+                    <button class = "delete button">
+                        <span class="button-label">Delete</span>
+                    </button>
+                </div>
+            </ol>
+        </div>
+    </div>
+    
+</body>
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
