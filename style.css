@@ -1,0 +1,41 @@
+.{
+  background-color: white;
+}
+.title{
+    text-align: center;
+    margin-top: 25px;
+    background-color: #f0d5f0;
+    font-variant: small-caps;
+    
+  }
+
+  .form{
+      margin: auto;
+      max-width:400px;
+      text-align: center
+  }
+
+  input[type='submit'], button, [label]{
+    cursor: pointer;
+  }
+  #edit-box{
+    display: none;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 15px;
+   
+  }
+
+  td{
+      background-color: white;
+      padding-right: 10px;
+      text-align: center;
+    
+    
+  }
+
+  .to-do{
+      background: transparent;
+    
+      
+  }
